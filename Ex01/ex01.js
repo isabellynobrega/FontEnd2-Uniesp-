@@ -12,7 +12,7 @@ var maioralt = 0;
 var menoralt = 0;
 var mulher = 0;
 var homem = 0;
-var mediamulher = 0;
+var mediahomem = 0;
 var contamulher = 0;
 var contahomem = 0;
 
@@ -37,10 +37,10 @@ var contahomem = 0;
                     contahomem++;
                 }
             }
-            mediamulher = mulher/contamulher;//media de mulheres//
+            mediahomem = homem/contahomem;//media de homems//
            
             //valores pedidos//
             alert("A maior altura é:" + maioralt); 
             alert("A menor altura é:" + menoralt);
-            alert("A média das mulheres é:" + mediamulher);
-            alert("O número de homens é:" + contahomem);
+            alert("A média das Homens é:" + mediahomem);
+            alert("O número de Mulheres é:" + contamulher);
