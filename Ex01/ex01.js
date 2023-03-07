@@ -19,7 +19,7 @@ var contahomem = 0;
             for(q = 1 ;q <= 15; q++) { //quantidade de vezes a ser perguntado//
  
                 sexo = prompt("Qual o seu sexo, Feminino (F) ou Masculino (M)?");                
-                altura = parseInt(prompt("Qual a sua altura["+q+"]:"));
+                altura = parseFloat(prompt("Qual a sua altura["+q+"]:"));
 
 
 
