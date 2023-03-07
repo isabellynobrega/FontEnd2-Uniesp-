@@ -12,7 +12,7 @@ var maioralt = 0;
 var menoralt = 0;
 var mulher = 0;
 var homem = 0;
-var mediahomem = 0;
+var mediaAlturaHomem = 0;
 var contamulher = 0;
 var contahomem = 0;
 
@@ -37,7 +37,7 @@ var contahomem = 0;
                     contahomem++;
                 }
             }
-            mediahomem = homem/contahomem;//media de homems//
+            mediaAlturaHomem = homem/contahomem;//media de homems//
            
             //valores pedidos//
             alert("A maior altura é:" + maioralt); 
